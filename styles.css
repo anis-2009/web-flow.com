@@ -2,6 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#background-image{
+    width: 1440px;
+    height: 695px;
+    width: 100%;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -10,6 +24,7 @@ nav{
     border: 1px solid red;
     margin: 0 auto;
     align-items: center;
+    margin-bottom: 158px;
 }
 nav h3{
     width: 99px;
@@ -33,6 +48,7 @@ header{
     border: 1px solid red;
     align-content: center;
     text-align: center;
+    margin-bottom:150px;
 
 }
 header h1{
@@ -52,11 +68,97 @@ header button{
     color: #FFFFFF;
 
 }
+/* action section start */
 #action-div{
     display: flex;
+    justify-content: space-between;
     width: 1140px;
     height: 328px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+#action-div2{
+    padding-top: 20px;
+    width: 517px;
+    height: 203px;
+    
+   
+    
+    
+}
+#action-h2{
+    width:517px ;
+    height: 49px;
+    font-size: 42px;
+    font-weight: bold;
+    border: 1px solid red;
+    color: #252432;
+}
+#action-p{
+    width: 517px;
+    height: 60px;
+    font-size: 24px;
+    color: #252432;
+
+}
+#action-button{
+    width: 229px;
+    height: 48px;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+#action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+/* Produtive user section */
+#productive-user-div{
+    background-color: #D7D5F4;
+    width: 1140px;
+    height: 306px;
+    margin: 0 auto;
+    padding: auto;
+    justify-items: center;
+    
+}
+#productive-user-h2{
+width: 856px;
+height: 45px;
+font-size: 38px;
+font-weight: bold;
+margin: 0 auto;
+text-align: center;
+padding-top: 30px;
+}
+#productive-user-div2{
+    display: flex;
     justify-content: space-between;
+    width: 856px;
+    height: 221px;
     margin: 0 auto;
 
+}
+#active-2m{
+width: 162px;
+height: 97px;
+font-style:unset;
+font-size: 80px;
+font-weight: bold;
+color: #4E47FF;
+}
+#acttve-u{
+    color: #757575;
+    font-weight: 20px;
+}
+
+#what-say-h1{
+    width: 1140px;
+    height: 49px;
+    font-size: 42px;
+    text-align: center;
+    margin: 0 auto;
 }

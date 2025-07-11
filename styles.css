@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 151px;
+    border: 1px solid red;
+    margin: 0 auto;
+    align-items: center;
+}
+nav h3{
+    width: 99px;
+    height: 51px;
+    color:#4E47FF;
+    font-size: 34px;
+}
+nav button{
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    font-style: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+header{
+    width: 905px;
+    height: 237px;
+    margin: 0 auto;
+    border: 1px solid red;
+    align-content: center;
+    text-align: center;
+
+}
+header h1{
+    width: 905px;
+    height: 152px;
+    font-size: 65px;
+    font-weight: bold;
+
+}
+header button{
+    width: 174px;
+    height: 48px;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #FFFFFF;
+
+}
+#action-div{
+    display: flex;
+    width: 1140px;
+    height: 328px;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}

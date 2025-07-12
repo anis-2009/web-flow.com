@@ -7,17 +7,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="styles.css">
+    <style>
+.button {
+  position: relative;
+  /* background-color: #04AA6D; */
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 0px;
+  width: 300px;
+  text-align: center;
+  /* -webkit-transition-duration: 0.4s; Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "You are flying";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+</style>
 </head>
-     <body class="raleway-normal">
+<body class="raleway-normal">
          <div id="background-image" style="background-image: url('./Assets/Hero-bg.png');">
              <nav>
-                <h3>Webflow.com</h3>
-                 <button>Sign Up</button>
+                <h3 class="inter-normal" >Webflow.com</h3>
+                 <button class="button">Sign Up</button>
         </nav>
     <header>
         <h1>Cool Dark UI Template for Webflow Agencies!</h1>
-        <button>Stay Focused</button>
+        <button class="button">Stay Focused</button>
     </header>
          </div>
     <main>
@@ -27,7 +67,7 @@
                 <br>
                 <p id="action-p">Explore the live preview and imagine your brand in this bold new look.</p>
                 <br>
-                <button id="action-button">Launch Live Preview</button>
+                <button class="button" id="action-button">Launch Live Preview</button>
             </div>
             <img id="action-image" src="./Assets/wc-mini.png" alt="">
         </div>
@@ -40,15 +80,15 @@
             <br>
             <div id="productive-user-div2">
                 <div>
-                    <h1 id="active-2m">50K</h1>
+                    <h1 class="inter-normal" id="active-2m">50K</h1>
                     <p id="active-u">Active Users</p>
                 </div>
                 <div>
-                    <h1 id="active-2m">2M+</h1>
+                    <h1 class="inter-normal" id="active-2m">2M+</h1>
                     <P id="active-u">Focus Session</P>
                 </div>
                 <div>
-                    <h1 id="active-2m">95%</h1>
+                    <h1 class="inter-normal" id="active-2m">95%</h1>
                     <p id="active-u">Satisfaction Rate</p>
                 </div>
                 
@@ -113,24 +153,26 @@
        <section class="ready-to-focus">
         <h1>Ready to focus better</h1>
         <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-        <button>Ger Started Free</button>
+        <button class="button">Get Started Free</button>
         <br>
         <img src="./Assets/wc-big.png" alt="">
        </section>
-       <!-- contact <section></section> -->
+       <!-- contact section start -->
        <section class="contact-section">
         <h1>Let’s Get in Touch</h1>
-        <form action="">
+        <form>
             <label for="email">Email</label>
             <input placeholder="exam@gmail.com" type="email" name="email" id="">
             <label for="text">Name</label>
             <input placeholder="Full Name" type="text" name="text" id="">
             <label for="Message">Message</label>
             <input placeholder="Write Your Message" type="textarea" name="Message" id="">
-            <input type="button" value="Get In Touch">
+            <button class="button" id="button-getintouch" >Get In Touch</button>
+       <!-- <input class="button" id="button-getintouch" type="button" value="Get In Touch"> -->
         </form>
 
        </section>
+       
         
       
 
@@ -138,4 +180,19 @@
     </main>
 
 </body>
+<bottom>
+    <h1 class="webflow-bottom">Webflow.com</h1>
+    <P class="webflow-bottom-p">Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</P>
+    <div class="bottom-link">
+        <p><a href="https://www.google.com/" target="_blank">Home</a></p>
+        <br>
+        <br>
+        <p><a href="https://www.google.com/" target="_blank">About</a></p>
+        <br>
+        <br>
+        <p><a href="https://www.google.com/" target="_blank">How it works</a></p>
+        <p><a href="https://www.google.com/" target="_blank">Servises</a></p>
+    </div>
+</bottom>
+
 </html>

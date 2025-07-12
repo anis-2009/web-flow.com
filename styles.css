@@ -11,6 +11,12 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 #background-image{
     width: 1440px;
     height: 695px;
@@ -241,6 +247,7 @@ font-style: normal;
     font-size: 50px;
     font-weight: bold;
      margin: 20px 0px;
+    
 }
 .ready-to-focus p{
     font-size: 16px;
@@ -263,23 +270,68 @@ font-style: normal;
     display: flex;
     gap: 50px;
     width: 1140px;
-    margin: 0px auto;
+    margin: 50px auto;
 }
 .contact-section h1{
     font-weight: bold;
     font-size: 97px;
+    margin: 100px 0px;
 }
-.contact-section input[type="email"], input[type="text"], textarea{
+.contact-section input[type="email"], input[type="text"], input[type=textarea]{
     font-size: 20px;
     color: #808080;
     padding: 20px 20px;
     width: 93%;
     margin-top: 10px;
     margin-bottom: 25px;
-    border: 1px solid rgba(0, 0, 0, 0.164);
+    /* border: 1px solid (0); */
     border-radius: 10px;
 }
 .contact-section label{
     font: 18px;
 
+}
+#button-getintouch{
+    width: 229px;
+    height: 48px;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #FFFFFF;
+    /* width: 200px;
+    height: 62px;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin: 20px 0px; */
+}
+.webflow-bottom{
+    font-size: 70px;
+    color: #4E47FF;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+}
+.webflow-bottom-p{
+    width: 531px;
+    height: 48px;
+    color: #8987A1;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.bottom-link{
+    font-size: 20px;
+    display: flex;
+    margin: 0 auto;
+    width: 401px;
+    height: 24px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  
 }
